@@ -1,0 +1,94 @@
+
+TARGET			VoIP.exe
+UID 0x100039CE 0x20025455
+VENDORID		0
+TARGETTYPE		EXE
+// The default 8KB seems to be insufficient with all bells and
+// whistles turned on
+EPOCSTACKSIZE	0x8000
+
+// PJSIP 1.5 Macros
+MACRO			PJ_M_I386=1
+MACRO			PJ_SYMBIAN=1
+MACRO			PJ_CONFIG_NOKIA_VAS_DIRECT=1
+
+SYSTEMINCLUDE	\epoc32\include
+// P.I.P.S. (P.I.P.S. Is POSIXon Symbian) includes 
+SYSTEMINCLUDE	\epoc32\include\variant 
+SYSTEMINCLUDE	\epoc32\include\ecom
+SYSTEMINCLUDE	\epoc32\include\libc
+
+USERINCLUDE		..\inc ..\data
+
+// PJSIP 1.5.5 includes
+SYSTEMINCLUDE	\Source\pjproject-1.5.5\pjlib\include
+SYSTEMINCLUDE	\Source\pjproject-1.5.5\pjlib-util\include
+SYSTEMINCLUDE	\Source\pjproject-1.5.5\pjnath\include
+SYSTEMINCLUDE	\Source\pjproject-1.5.5\pjmedia\include
+SYSTEMINCLUDE	\Source\pjproject-1.5.5\pjsip\include
+
+SOURCEPATH		..\data
+
+START RESOURCE	VoIP.rss
+HEADER
+TARGETPATH 		resource\apps
+END //RESOURCE
+
+START RESOURCE	VoIP_reg.rss
+TARGETPATH		\private\10003a3f\apps
+END //RESOURCE
+
+// Symbian 3rd FP1 SDK Libraries
+LIBRARY			charconv.lib estlib.lib 
+LIBRARY			euser.lib apparc.lib cone.lib eikcore.lib avkon.lib
+LIBRARY			commonengine.lib efsrv.lib estor.lib eikcoctl.lib eikdlg.lib 
+LIBRARY			eikctl.lib bafl.lib fbscli.lib aknnotify.lib aknicon.lib
+LIBRARY			etext.lib gdi.lib egul.lib insock.lib
+LIBRARY			ecom.lib InetProtUtil.lib http.lib esock.lib PbkEng.lib 
+LIBRARY			eikcdlg.lib cntmodel.lib apgrfx.lib ws32.lib
+LIBRARY			pbkview.lib sendui.lib etel3rdparty.lib logcli.lib logwrap.lib
+LIBRARY			aknskins.lib aknskinsrv.lib aknswallpaperutils.lib
+
+// PJSIP 1.5.5 Libraries 
+LIBRARY         pjlib.lib pjlib_util.lib pjnath.lib
+LIBRARY         pjsdp.lib pjmedia.lib
+LIBRARY         pjsip_simple.lib pjsip_ua.lib pjsua_lib.lib       
+
+// VOIP Audio Service Plugin Library
+LIBRARY     VoIPAudioIntfc.lib   
+ 
+// PJSIP 1.5 Libraries 
+// Ordering static libs based on dependencies, most to least dependent,
+// this could be necessary for some SDKs, e.g: S60 3rd MR
+//STATICLIBRARY		pjsua_lib.lib
+//STATICLIBRARY		pjsip_ua.lib pjsip_simple.lib pjsip.lib
+//STATICLIBRARY		libgsmcodec.lib libspeexcodec.lib 
+//STATICLIBRARY		libg7221codec.lib libpassthroughcodec.lib
+//STATICLIBRARY		pjmedia.lib
+//STATICLIBRARY		pjmedia_audiodev.lib
+//STATICLIBRARY		pjsdp.lib
+//STATICLIBRARY		pjnath.lib
+//STATICLIBRARY		pjlib_util.lib pjlib.lib
+//STATICLIBRARY		libsrtp.lib
+//STATICLIBRARY		libresample.lib
+
+LANG 			01
+
+START BITMAP	VoIP.mbm
+HEADER
+TARGETPATH		\resource\apps
+SOURCEPATH		..\gfx
+SOURCE	c12,1	list_icon.bmp list_icon_mask.bmp
+END
+
+#ifdef ENABLE_ABIV2_MODE
+DEBUGGABLE_UDEBONLY
+#endif
+
+SOURCEPATH      ..\src
+
+SOURCE VoIPListBoxView.cpp VoIPListBox.cpp VoIPDocument.cpp VoIPApplication.cpp VoIPAppUi.cpp PhoneBkEngine.cpp Contact.cpp PhoneHelper.cpp CheckedActive.cpp VoIPForm.cpp 
+SOURCE symbian_ua.cpp Symbian_ua_guiSettingItemListSets.cpp symbian_ua_guiSettingItemList.cpp symbian_ua_guiSettingItemListView.cpp SIPExLogContainer.cpp SIPExLogView.cpp	
+
+CAPABILITY	LocalServices NetworkServices ProtServ ReadDeviceData ReadUserData SwEvent WriteDeviceData WriteUserData UserEnvironment MultimediaDD
+

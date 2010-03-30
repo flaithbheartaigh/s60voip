@@ -1,0 +1,60 @@
+/*
+ ========================================================================
+ $Id$
+ $Author$
+ $Date$
+ $Revision$
+ Copyright (c) 2010 Fandango60.  
+ ========================================================================
+ */
+
+#ifndef __VOIP_HRH__
+#define __VOIP_HRH__
+
+#define KMaxNameLength 155
+#define KMaxDateLength 30
+#define KSyncNo 0
+#define KSyncPublic 1
+#define KSyncPrivate 2
+
+#define _UID3 0x20025455
+
+enum TVoIPViewUids
+    {
+    EVoIPListBoxViewId = 1,
+    EVoIPSettingFormViewId,
+    EVoIPSettingItemListViewId,
+    ESymbian_ua_guiSettingItemListViewId,
+    ESIPExView2Id
+    };
+
+enum TVoIPListBoxViewCommands
+    {
+    EVoIPOpenMenuItemCommand = 0x6000,
+    EVoIPCallMenuItemCommand,
+    EVoIPVoiceCallMenuItemCommand,
+    EVoIPInternetCallMenuItemCommand,
+    EVoIPMessageMenuItemCommand,
+    EVoIPTextMessageMenuItemCommand,
+    EVoIPMultimediaMessageMenuItemCommand,
+    EVoIPNewContactMenuItemCommand,
+    EVoIPEditMenuItemCommand,
+    EVoIPAddMenuItemCommand,
+    EVoIPDeleteMenuItemCommand,
+    EVoIPMarkingMenuItemCommand,
+    EVoIPMarkMenuItemCommand,
+    EVoIPMarkAllMenuItemCommand,
+    EVoIPSIPStartMenuItemCommand,
+    EVoIPSIPSettingsMenuItemCommand,
+    EVoIPSIPStopMenuItemCommand,
+    EVoIPAboutMenuItemCommand,
+    EVoIPHelpMenuItemCommand,
+    EVoIPExitMenuItemCommand
+    };
+
+enum TVoIPListBoxViewControls
+    {
+    EWaitNote = 1, EDeleteConfirmationQuery
+    };
+
+#endif // __VOIP_HRH__
