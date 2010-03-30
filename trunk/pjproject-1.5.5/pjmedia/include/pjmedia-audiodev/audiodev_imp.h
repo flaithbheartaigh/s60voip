@@ -1,4 +1,4 @@
-/* $Id: audiodev_imp.h 2506 2009-03-12 18:11:37Z bennylp $ */
+/* $Id$ */
 /* 
  * Copyright (C) 2008-2009 Teluu Inc. (http://www.teluu.com)
  * Copyright (C) 2003-2008 Benny Prijono <benny@prijono.org>

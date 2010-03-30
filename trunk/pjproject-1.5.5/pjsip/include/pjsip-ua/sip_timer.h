@@ -1,4 +1,4 @@
-/* $Id: sip_timer.h 2859 2009-08-11 16:26:20Z nanang $ */
+/* $Id$ */
 /* 
  * Copyright (C) 2009 Teluu Inc. (http://www.teluu.com)
  *
