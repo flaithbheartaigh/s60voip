@@ -1,0 +1,65 @@
+/*
+ ========================================================================
+ $Id$
+ $Author$
+ $Date$
+ $Revision$ 
+ ========================================================================
+ */
+
+// localized strings for language: UK English (01)
+
+#define qtn_caption_string "VoIP"
+
+// billable messages
+#define qtn_billableevent_title "Billable Event"
+#define qtn_billableevent_text "Normal network charges apply for this action"
+
+// privacy messages
+#define qtn_privacystatement_title "For your information"
+#define qtn_privacystatement_text "This application will make use of the following features of your phone.\nIf you have any questions or concerns, please contact us at administrator@fandango60.com:\n- Sending SMS messages\n- Sending MMS messages\n- Making phone calls\n- Allowing you to add or edit contacts\n- Reading existing information from your contacts database"
+#define qtn_showdialog_question "Do not show me this information again"
+
+// application processing strings
+#define qtn_unnamed "(Unnamed)"
+#define qtn_contact_added "Contact added by other application"
+#define qtn_wait_note "Loading Contacts"
+#define qtn_no_entries_found "No entries found"
+
+// menu pane strings
+#define qtn_menu_open "Open"
+#define qtn_menu_call "Call"
+#define qtn_menu_voice_message "Voice call"
+#define qtn_menu_internet_message "Internet call"
+#define qtn_menu_create_message "Create message"
+#define qtn_menu_text_message "Text message"
+#define qtn_menu_multimedia_message "Multimedia message"
+#define qtn_menu_new_contact "New contact"
+#define qtn_menu_edit "Edit"
+#define qtn_menu_add "Add detail"
+#define qtn_menu_delete "Delete"
+//#define qtn_menu_mark_unmark "Mark/Unmark"
+//#define qtn_menu_mark "Mark"
+//#define qtn_menu_unmark "Mark all"
+#define qtn_menu_sip_start "SIP Start"
+#define qtn_menu_sip_settings "SIP Settings"
+#define qtn_menu_sip_stop "SIP Stop"
+#define qtn_menu_about "About"
+#define qtn_menu_help "Help"
+#define qtn_menu_exit "Exit"
+
+// about dialog
+#define qtn_entry_about "VoIP"
+#define qtn_about_messagebody "blah blah"
+
+// delete contac entry confirmation
+#define qtn_delete_confirmation "Delete"
+
+
+
+
+
+
+
+
+
