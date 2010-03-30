@@ -1,4 +1,4 @@
-/* $Id: getopt.h 2037 2008-06-20 21:39:02Z bennylp $ */
+/* $Id$ */
 /* This file has now become GPL. */
 /* Declarations for pj_getopt.
    Copyright (C) 1989,90,91,92,93,94,96,97,98 Free Software Foundation, Inc.

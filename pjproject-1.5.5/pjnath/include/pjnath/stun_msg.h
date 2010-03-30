@@ -1,4 +1,4 @@
-/* $Id: stun_msg.h 2724 2009-05-29 13:04:03Z bennylp $ */
+/* $Id$ */
 /* 
  * Copyright (C) 2008-2009 Teluu Inc. (http://www.teluu.com)
  * Copyright (C) 2003-2008 Benny Prijono <benny@prijono.org>

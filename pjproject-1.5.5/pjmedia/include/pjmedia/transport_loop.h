@@ -1,4 +1,4 @@
-/* $Id: transport_loop.h 2845 2009-07-29 12:19:25Z bennylp $ */
+/* $Id$ */
 /* 
  * Copyright (C) 2008-2009 Teluu Inc. (http://www.teluu.com)
  * Copyright (C) 2003-2008 Benny Prijono <benny@prijono.org>

@@ -1,4 +1,4 @@
-/* $Id: sip_transaction.h 2646 2009-04-26 11:02:04Z bennylp $ */
+/* $Id$ */
 /* 
  * Copyright (C) 2008-2009 Teluu Inc. (http://www.teluu.com)
  * Copyright (C) 2003-2008 Benny Prijono <benny@prijono.org>

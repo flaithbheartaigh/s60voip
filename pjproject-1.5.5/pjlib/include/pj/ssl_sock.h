@@ -1,4 +1,4 @@
-/* $Id: ssl_sock.h 2998 2009-11-09 08:51:34Z bennylp $ */
+/* $Id$ */
 /* 
  * Copyright (C) 2009 Teluu Inc. (http://www.teluu.com)
  *
