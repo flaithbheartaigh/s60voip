@@ -1,0 +1,6 @@
+
+The API plug-in package is also covered by a click through Limited License Agreement (LLA), the content of which is also included in the 
+package. The use of the API included in the API Plug-in assumes that the LLA is implicitly 
+accepted. 
+
+http://www.forum.nokia.com/main/general/API_plug-in_LLA_for_FP1_for_dev.html

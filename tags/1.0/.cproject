@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject>
+<storageModule buildFromInf="true" buildingTestComps="true" cleanLevel="0" concurrentBuildJobs="4" defaultMMPChangedAction="0" infBuildComponents="" infFileLocation="group\bld.inf" macrosFile="" makeEngineToUse="make" manageDependencies="true" moduleId="com.nokia.carbide.cdt.builder.carbideCPPBuilder" overrideMakeEngine="false" overrideWorkspaceSettings="false" promptForMMPChangedAction="true" useConcurrentBuilding="true" useDebugMode="false" useIncrementalBuilder="false" useKeepGoing="false" useMMPMacros="true"/>
+<storageModule moduleId="org.eclipse.cdt.core.settings">
+<cconfiguration id="Emulator Debug (WINSCW) [S60_3rd_FP1]">
+<storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="Emulator Debug (WINSCW) [S60_3rd_FP1]" moduleId="org.eclipse.cdt.core.settings" name="Emulator Debug (WINSCW) [S60_3rd_FP1]">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakeDefErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.SBSv2ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MWLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MWCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.CarbideMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RCOMPErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="CarbideConfigurationDataProvider">
+<ENV_VAR_DATA_ID/>
+<ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
+<ROM_BUILDER_DATA_ID ROMBUILDWORKINGDIRECTORYSTORAGE="C:\"/>
+</storageModule>
+<storageModule filesCache="C:\Symbian\Carbide\workspace\s60voip\group\bld.inf;C:\Symbian\Carbide\workspace\s60voip\group\VoIP.mmp;" includesCache="C:/Symbian/Carbide/workspace/s60voip/inc[LOCAL];C:/Symbian/Carbide/workspace/s60voip/data[LOCAL];C:/Symbian/9.2/S60_3rd_FP1/Epoc32/include;C:/Symbian/9.2/S60_3rd_FP1/Epoc32/include/variant;C:/Symbian/9.2/S60_3rd_FP1/Epoc32/include/ecom;C:/Symbian/9.2/S60_3rd_FP1/Epoc32/include/libc;C:/Source/pjproject-1.5.5/pjlib/include;C:/Source/pjproject-1.5.5/pjlib-util/include;C:/Source/pjproject-1.5.5/pjnath/include;C:/Source/pjproject-1.5.5/pjmedia/include;C:/Source/pjproject-1.5.5/pjsip/include;" macrosCache="_UNICODE;__SUPPORT_CPP_EXCEPTIONS__;__SERIES60_31__;PJ_M_I386=1;PJ_SYMBIAN=1;__WINSCW__;__SYMBIAN32__;__EXE__;__SERIES60_3X__;__CW32__;__WINS__;PJ_CONFIG_NOKIA_VAS_DIRECT=1;_DEBUG;" moduleId="configDataCache" sourcesCache="/pjproject-1.5.5/pjlib-util/include;/pjproject-1.5.5/pjlib/include;/pjproject-1.5.5/pjmedia/include;/pjproject-1.5.5/pjnath/include;/pjproject-1.5.5/pjsip/include;/s60voip/data;/s60voip/inc;/s60voip/src;" timestampCache="1269954401271" useMmpMacrosCache="true"/>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cconfiguration>
+<cconfiguration id="Phone Debug (ARMV5) [S60_3rd_FP1]">
+<storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="Phone Debug (ARMV5) [S60_3rd_FP1]" moduleId="org.eclipse.cdt.core.settings" name="Phone Debug (ARMV5) [S60_3rd_FP1]">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RVCTCompilerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakeDefErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.SBSv2ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RVCTLinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.CarbideMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RCOMPErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.Elf2E32ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="CarbideConfigurationDataProvider">
+<ENV_VAR_DATA_ID/>
+<ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
+<ROM_BUILDER_DATA_ID ROMBUILDWORKINGDIRECTORYSTORAGE="C:\"/>
+</storageModule>
+<storageModule filesCache="C:\Symbian\Carbide\workspace\s60voip\group\bld.inf;C:\Symbian\Carbide\workspace\s60voip\group\VoIP.mmp;" includesCache="C:/Symbian/Carbide/workspace/s60voip/inc[LOCAL];C:/Symbian/Carbide/workspace/s60voip/data[LOCAL];C:/Symbian/9.2/S60_3rd_FP1/Epoc32/include;C:/Symbian/9.2/S60_3rd_FP1/Epoc32/include/variant;C:/Symbian/9.2/S60_3rd_FP1/Epoc32/include/ecom;C:/Symbian/9.2/S60_3rd_FP1/Epoc32/include/libc;C:/Source/pjproject-1.5.5/pjlib/include;C:/Source/pjproject-1.5.5/pjlib-util/include;C:/Source/pjproject-1.5.5/pjnath/include;C:/Source/pjproject-1.5.5/pjmedia/include;C:/Source/pjproject-1.5.5/pjsip/include;" macrosCache="_UNICODE;__SUPPORT_CPP_EXCEPTIONS__;__SERIES60_31__;PJ_M_I386=1;PJ_SYMBIAN=1;__MARM_ARMV5__;__ARMCC__;__ARMCC_2_2__;__SYMBIAN32__;__MARM__;__EXE__;__SERIES60_3X__;PJ_CONFIG_NOKIA_VAS_DIRECT=1;__EPOC32__;__GENERIC_MARM__;__EABI__;_DEBUG;" moduleId="configDataCache" sourcesCache="/pjproject-1.5.5/pjlib-util/include;/pjproject-1.5.5/pjlib/include;/pjproject-1.5.5/pjmedia/include;/pjproject-1.5.5/pjnath/include;/pjproject-1.5.5/pjsip/include;/s60voip/data;/s60voip/inc;/s60voip/src;" timestampCache="1269952481624" useMmpMacrosCache="true"/>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cconfiguration>
+<cconfiguration id="Phone Release (ARMV5) [S60_3rd_FP1]">
+<storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="Phone Release (ARMV5) [S60_3rd_FP1]" moduleId="org.eclipse.cdt.core.settings" name="Phone Release (ARMV5) [S60_3rd_FP1]">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RVCTCompilerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakeDefErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.SBSv2ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RVCTLinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.CarbideMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RCOMPErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.Elf2E32ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="CarbideConfigurationDataProvider">
+<ENV_VAR_DATA_ID/>
+<ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
+<ROM_BUILDER_DATA_ID ROMBUILDWORKINGDIRECTORYSTORAGE="C:\"/>
+</storageModule>
+<storageModule filesCache="C:\Symbian\Carbide\workspace\s60voip\group\bld.inf;C:\Symbian\Carbide\workspace\s60voip\group\VoIP.mmp;" includesCache="C:/Symbian/Carbide/workspace/s60voip/inc[LOCAL];C:/Symbian/Carbide/workspace/s60voip/data[LOCAL];C:/Symbian/9.2/S60_3rd_FP1/Epoc32/include;C:/Symbian/9.2/S60_3rd_FP1/Epoc32/include/variant;C:/Symbian/9.2/S60_3rd_FP1/Epoc32/include/ecom;C:/Symbian/9.2/S60_3rd_FP1/Epoc32/include/libc;C:/Source/pjproject-1.5.5/pjlib/include;C:/Source/pjproject-1.5.5/pjlib-util/include;C:/Source/pjproject-1.5.5/pjnath/include;C:/Source/pjproject-1.5.5/pjmedia/include;C:/Source/pjproject-1.5.5/pjsip/include;" macrosCache="_UNICODE;__SUPPORT_CPP_EXCEPTIONS__;__SERIES60_31__;PJ_M_I386=1;PJ_SYMBIAN=1;__MARM_ARMV5__;NDEBUG;__ARMCC__;__ARMCC_2_2__;__SYMBIAN32__;__MARM__;__EXE__;__SERIES60_3X__;PJ_CONFIG_NOKIA_VAS_DIRECT=1;__EPOC32__;__GENERIC_MARM__;__EABI__;" moduleId="configDataCache" sourcesCache="/pjproject-1.5.5/pjlib-util/include;/pjproject-1.5.5/pjlib/include;/pjproject-1.5.5/pjmedia/include;/pjproject-1.5.5/pjnath/include;/pjproject-1.5.5/pjsip/include;/s60voip/data;/s60voip/inc;/s60voip/src;" timestampCache="1269952481631" useMmpMacrosCache="true"/>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cconfiguration>
+<cconfiguration id="Phone Debug (GCCE) [S60_3rd_FP1]">
+<storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="Phone Debug (GCCE) [S60_3rd_FP1]" moduleId="org.eclipse.cdt.core.settings" name="Phone Debug (GCCE) [S60_3rd_FP1]">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakeDefErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.SBSv2ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.CarbideMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RCOMPErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.Elf2E32ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.GCCECompilerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.GCCEAssemblerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.GCCELinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="CarbideConfigurationDataProvider">
+<SIS_BUILDER_DATA_ID CERTIFICATESTORAGE="C:\Symbian\e71and5800allcapabilities.cer" CREATESTUBSTORAGE="false" ENABLEDSTORAGE="true" KEYSTORAGE="C:\Symbian\robert.key" OUTPUTFILENAMESTORAGE="voip.sis" PARTIALUPGRADESTORAGE="false" PKGFILESTORAGE="C:\Symbian\Carbide\workspace\S60VoIP\sis\VoIP.pkg" SIGNEDSISFILENAMESTORAGE="voip.sisx" SIGNINGTYPESTORAGE="2"/>
+<ENV_VAR_DATA_ID/>
+<ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
+<ROM_BUILDER_DATA_ID ROMBUILDWORKINGDIRECTORYSTORAGE="C:\"/>
+</storageModule>
+<storageModule filesCache="C:\Symbian\Carbide\workspace\s60voip\group\bld.inf;C:\Symbian\Carbide\workspace\s60voip\group\VoIP.mmp;" includesCache="C:/Symbian/Carbide/workspace/s60voip/inc[LOCAL];C:/Symbian/Carbide/workspace/s60voip/data[LOCAL];C:/Symbian/9.2/S60_3rd_FP1/Epoc32/include;C:/Symbian/9.2/S60_3rd_FP1/Epoc32/include/variant;C:/Symbian/9.2/S60_3rd_FP1/Epoc32/include/ecom;C:/Symbian/9.2/S60_3rd_FP1/Epoc32/include/libc;C:/Source/pjproject-1.5.5/pjlib/include;C:/Source/pjproject-1.5.5/pjlib-util/include;C:/Source/pjproject-1.5.5/pjnath/include;C:/Source/pjproject-1.5.5/pjmedia/include;C:/Source/pjproject-1.5.5/pjsip/include;" macrosCache="_UNICODE;__SUPPORT_CPP_EXCEPTIONS__;__SERIES60_31__;PJ_M_I386=1;PJ_SYMBIAN=1;__MARM_ARMV5__;__SYMBIAN32__;__GCCE__;__MARM__;__EXE__;__SERIES60_3X__;PJ_CONFIG_NOKIA_VAS_DIRECT=1;__GENERIC_MARM__;__EPOC32__;__EABI__;_DEBUG;" moduleId="configDataCache" sourcesCache="/pjproject-1.5.5/pjlib-util/include;/pjproject-1.5.5/pjlib/include;/pjproject-1.5.5/pjmedia/include;/pjproject-1.5.5/pjnath/include;/pjproject-1.5.5/pjsip/include;/s60voip/data;/s60voip/inc;/s60voip/src;" timestampCache="1269952481638" useMmpMacrosCache="true"/>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cconfiguration>
+<cconfiguration id="Phone Release (GCCE) [S60_3rd_FP1]">
+<storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="Phone Release (GCCE) [S60_3rd_FP1]" moduleId="org.eclipse.cdt.core.settings" name="Phone Release (GCCE) [S60_3rd_FP1]">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakeDefErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.SBSv2ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.CarbideMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RCOMPErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.Elf2E32ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.GCCECompilerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.GCCEAssemblerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.GCCELinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="CarbideConfigurationDataProvider">
+<ENV_VAR_DATA_ID/>
+<ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
+<ROM_BUILDER_DATA_ID ROMBUILDWORKINGDIRECTORYSTORAGE="C:\"/>
+</storageModule>
+<storageModule filesCache="C:\Symbian\Carbide\workspace\s60voip\group\bld.inf;C:\Symbian\Carbide\workspace\s60voip\group\VoIP.mmp;" includesCache="C:/Symbian/Carbide/workspace/s60voip/inc[LOCAL];C:/Symbian/Carbide/workspace/s60voip/data[LOCAL];C:/Symbian/9.2/S60_3rd_FP1/Epoc32/include;C:/Symbian/9.2/S60_3rd_FP1/Epoc32/include/variant;C:/Symbian/9.2/S60_3rd_FP1/Epoc32/include/ecom;C:/Symbian/9.2/S60_3rd_FP1/Epoc32/include/libc;C:/Source/pjproject-1.5.5/pjlib/include;C:/Source/pjproject-1.5.5/pjlib-util/include;C:/Source/pjproject-1.5.5/pjnath/include;C:/Source/pjproject-1.5.5/pjmedia/include;C:/Source/pjproject-1.5.5/pjsip/include;" macrosCache="_UNICODE;__SUPPORT_CPP_EXCEPTIONS__;__SERIES60_31__;PJ_M_I386=1;PJ_SYMBIAN=1;__MARM_ARMV5__;NDEBUG;__SYMBIAN32__;__GCCE__;__MARM__;__EXE__;__SERIES60_3X__;PJ_CONFIG_NOKIA_VAS_DIRECT=1;__GENERIC_MARM__;__EPOC32__;__EABI__;" moduleId="configDataCache" sourcesCache="/pjproject-1.5.5/pjlib-util/include;/pjproject-1.5.5/pjlib/include;/pjproject-1.5.5/pjmedia/include;/pjproject-1.5.5/pjnath/include;/pjproject-1.5.5/pjsip/include;/s60voip/data;/s60voip/inc;/s60voip/src;" timestampCache="1269952481645" useMmpMacrosCache="true"/>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cconfiguration>
+<cconfiguration id="Emulator Debug (WINSCW) [S60_5th_Edition_SDK_v1.0]">
+<storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="Emulator Debug (WINSCW) [S60_5th_Edition_SDK_v1.0]" moduleId="org.eclipse.cdt.core.settings" name="Emulator Debug (WINSCW) [S60_5th_Edition_SDK_v1.0]">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakeDefErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.SBSv2ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MWLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MWCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.CarbideMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RCOMPErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="CarbideConfigurationDataProvider">
+<ENV_VAR_DATA_ID/>
+<ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
+<ROM_BUILDER_DATA_ID ROMBUILDWORKINGDIRECTORYSTORAGE="C:\"/>
+</storageModule>
+<storageModule filesCache="C:\Symbian\Carbide\workspace\s60voip\group\bld.inf;C:\Symbian\Carbide\workspace\s60voip\group\VoIP.mmp;" includesCache="C:/Symbian/Carbide/workspace/s60voip/inc[LOCAL];C:/Symbian/Carbide/workspace/s60voip/data[LOCAL];C:/S60/devices/S60_5th_Edition_SDK_v1.0/epoc32/include;C:/S60/devices/S60_5th_Edition_SDK_v1.0/epoc32/include/variant;C:/S60/devices/S60_5th_Edition_SDK_v1.0/epoc32/include/ecom;C:/S60/devices/S60_5th_Edition_SDK_v1.0/epoc32/include/libc;C:/Source/pjproject-1.5.5/pjlib/include;C:/Source/pjproject-1.5.5/pjlib-util/include;C:/Source/pjproject-1.5.5/pjnath/include;C:/Source/pjproject-1.5.5/pjmedia/include;C:/Source/pjproject-1.5.5/pjsip/include;" macrosCache="_UNICODE;__SUPPORT_CPP_EXCEPTIONS__;PJ_M_I386=1;PJ_SYMBIAN=1;__WINSCW__;__SYMBIAN32__;__EXE__;__SERIES60_3X__;__S60_3X__;__CW32__;__S60_5X__;PJ_CONFIG_NOKIA_VAS_DIRECT=1;__WINS__;_DEBUG;__S60_50__;" moduleId="configDataCache" sourcesCache="/pjproject-1.5.5/pjlib-util/include;/pjproject-1.5.5/pjlib/include;/pjproject-1.5.5/pjmedia/include;/pjproject-1.5.5/pjnath/include;/pjproject-1.5.5/pjsip/include;/s60voip/data;/s60voip/inc;/s60voip/src;" timestampCache="1269952481659" useMmpMacrosCache="true"/>
+<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+</cconfiguration>
+<cconfiguration id="Phone Debug (ARMV5) [S60_5th_Edition_SDK_v1.0]">
+<storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="Phone Debug (ARMV5) [S60_5th_Edition_SDK_v1.0]" moduleId="org.eclipse.cdt.core.settings" name="Phone Debug (ARMV5) [S60_5th_Edition_SDK_v1.0]">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RVCTCompilerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakeDefErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.SBSv2ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RVCTLinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.CarbideMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RCOMPErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.Elf2E32ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="CarbideConfigurationDataProvider">
+<ENV_VAR_DATA_ID/>
+<ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
+<ROM_BUILDER_DATA_ID ROMBUILDWORKINGDIRECTORYSTORAGE="C:\"/>
+</storageModule>
+<storageModule filesCache="C:\Symbian\Carbide\workspace\s60voip\group\bld.inf;C:\Symbian\Carbide\workspace\s60voip\group\VoIP.mmp;" includesCache="C:/Symbian/Carbide/workspace/s60voip/inc[LOCAL];C:/Symbian/Carbide/workspace/s60voip/data[LOCAL];C:/S60/devices/S60_5th_Edition_SDK_v1.0/epoc32/include;C:/S60/devices/S60_5th_Edition_SDK_v1.0/epoc32/include/variant;C:/S60/devices/S60_5th_Edition_SDK_v1.0/epoc32/include/ecom;C:/S60/devices/S60_5th_Edition_SDK_v1.0/epoc32/include/libc;C:/Source/pjproject-1.5.5/pjlib/include;C:/Source/pjproject-1.5.5/pjlib-util/include;C:/Source/pjproject-1.5.5/pjnath/include;C:/Source/pjproject-1.5.5/pjmedia/include;C:/Source/pjproject-1.5.5/pjsip/include;" macrosCache="_UNICODE;__SUPPORT_CPP_EXCEPTIONS__;PJ_M_I386=1;PJ_SYMBIAN=1;__MARM_ARMV5__;__ARMCC__;__ARMCC_2_2__;__SYMBIAN32__;__MARM__;__EXE__;__S60_3X__;__SERIES60_3X__;__ARMCC_2__;__S60_5X__;PJ_CONFIG_NOKIA_VAS_DIRECT=1;__EPOC32__;__GENERIC_MARM__;__EABI__;__S60_50__;_DEBUG;" moduleId="configDataCache" sourcesCache="/pjproject-1.5.5/pjlib-util/include;/pjproject-1.5.5/pjlib/include;/pjproject-1.5.5/pjmedia/include;/pjproject-1.5.5/pjnath/include;/pjproject-1.5.5/pjsip/include;/s60voip/data;/s60voip/inc;/s60voip/src;" timestampCache="1269952481665" useMmpMacrosCache="true"/>
+<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+</cconfiguration>
+<cconfiguration id="Phone Release (ARMV5) [S60_5th_Edition_SDK_v1.0]">
+<storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="Phone Release (ARMV5) [S60_5th_Edition_SDK_v1.0]" moduleId="org.eclipse.cdt.core.settings" name="Phone Release (ARMV5) [S60_5th_Edition_SDK_v1.0]">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RVCTCompilerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakeDefErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.SBSv2ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RVCTLinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.CarbideMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RCOMPErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.Elf2E32ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="CarbideConfigurationDataProvider">
+<ENV_VAR_DATA_ID/>
+<ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
+<ROM_BUILDER_DATA_ID ROMBUILDWORKINGDIRECTORYSTORAGE="C:\"/>
+</storageModule>
+<storageModule filesCache="C:\Symbian\Carbide\workspace\s60voip\group\bld.inf;C:\Symbian\Carbide\workspace\s60voip\group\VoIP.mmp;" includesCache="C:/Symbian/Carbide/workspace/s60voip/inc[LOCAL];C:/Symbian/Carbide/workspace/s60voip/data[LOCAL];C:/S60/devices/S60_5th_Edition_SDK_v1.0/epoc32/include;C:/S60/devices/S60_5th_Edition_SDK_v1.0/epoc32/include/variant;C:/S60/devices/S60_5th_Edition_SDK_v1.0/epoc32/include/ecom;C:/S60/devices/S60_5th_Edition_SDK_v1.0/epoc32/include/libc;C:/Source/pjproject-1.5.5/pjlib/include;C:/Source/pjproject-1.5.5/pjlib-util/include;C:/Source/pjproject-1.5.5/pjnath/include;C:/Source/pjproject-1.5.5/pjmedia/include;C:/Source/pjproject-1.5.5/pjsip/include;" macrosCache="_UNICODE;__SUPPORT_CPP_EXCEPTIONS__;PJ_M_I386=1;PJ_SYMBIAN=1;__MARM_ARMV5__;NDEBUG;__ARMCC__;__ARMCC_2_2__;__SYMBIAN32__;__MARM__;__EXE__;__S60_3X__;__SERIES60_3X__;__ARMCC_2__;__S60_5X__;PJ_CONFIG_NOKIA_VAS_DIRECT=1;__EPOC32__;__GENERIC_MARM__;__EABI__;__S60_50__;" moduleId="configDataCache" sourcesCache="/pjproject-1.5.5/pjlib-util/include;/pjproject-1.5.5/pjlib/include;/pjproject-1.5.5/pjmedia/include;/pjproject-1.5.5/pjnath/include;/pjproject-1.5.5/pjsip/include;/s60voip/data;/s60voip/inc;/s60voip/src;" timestampCache="1269952481672" useMmpMacrosCache="true"/>
+<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+</cconfiguration>
+<cconfiguration id="Phone Debug (GCCE) [S60_5th_Edition_SDK_v1.0]">
+<storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="Phone Debug (GCCE) [S60_5th_Edition_SDK_v1.0]" moduleId="org.eclipse.cdt.core.settings" name="Phone Debug (GCCE) [S60_5th_Edition_SDK_v1.0]">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakeDefErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.SBSv2ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.CarbideMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RCOMPErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.Elf2E32ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.GCCECompilerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.GCCEAssemblerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.GCCELinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="CarbideConfigurationDataProvider">
+<SIS_BUILDER_DATA_ID CERTIFICATESTORAGE="C:\Symbian\e71and5800allcapabilities.cer" CREATESTUBSTORAGE="false" ENABLEDSTORAGE="true" KEYSTORAGE="C:\Symbian\robert.key" OUTPUTFILENAMESTORAGE="voip.sis" PARTIALUPGRADESTORAGE="false" PKGFILESTORAGE="C:\Symbian\Carbide\workspace\s60voip\sis\VoIP.pkg" SIGNEDSISFILENAMESTORAGE="voip.sisx" SIGNINGTYPESTORAGE="2"/>
+<ENV_VAR_DATA_ID/>
+<ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
+<ROM_BUILDER_DATA_ID ROMBUILDWORKINGDIRECTORYSTORAGE="C:\"/>
+</storageModule>
+<storageModule filesCache="C:\Symbian\Carbide\workspace\s60voip\group\bld.inf;C:\Symbian\Carbide\workspace\s60voip\group\VoIP.mmp;" includesCache="C:/Symbian/Carbide/workspace/s60voip/inc[LOCAL];C:/Symbian/Carbide/workspace/s60voip/data[LOCAL];C:/S60/devices/S60_5th_Edition_SDK_v1.0/epoc32/include;C:/S60/devices/S60_5th_Edition_SDK_v1.0/epoc32/include/variant;C:/S60/devices/S60_5th_Edition_SDK_v1.0/epoc32/include/ecom;C:/S60/devices/S60_5th_Edition_SDK_v1.0/epoc32/include/libc;C:/Source/pjproject-1.5.5/pjlib/include;C:/Source/pjproject-1.5.5/pjlib-util/include;C:/Source/pjproject-1.5.5/pjnath/include;C:/Source/pjproject-1.5.5/pjmedia/include;C:/Source/pjproject-1.5.5/pjsip/include;" macrosCache="_UNICODE;__SUPPORT_CPP_EXCEPTIONS__;PJ_M_I386=1;PJ_SYMBIAN=1;__MARM_ARMV5__;__SYMBIAN32__;__GCCE__;__MARM__;__EXE__;__SERIES60_3X__;__S60_3X__;__S60_5X__;PJ_CONFIG_NOKIA_VAS_DIRECT=1;__EPOC32__;__GENERIC_MARM__;__EABI__;_DEBUG;__S60_50__;" moduleId="configDataCache" sourcesCache="/pjproject-1.5.5/pjlib-util/include;/pjproject-1.5.5/pjlib/include;/pjproject-1.5.5/pjmedia/include;/pjproject-1.5.5/pjnath/include;/pjproject-1.5.5/pjsip/include;/s60voip/data;/s60voip/inc;/s60voip/src;" timestampCache="1269952481679" useMmpMacrosCache="true"/>
+<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+</cconfiguration>
+<cconfiguration id="Phone Release (GCCE) [S60_5th_Edition_SDK_v1.0]">
+<storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="Phone Release (GCCE) [S60_5th_Edition_SDK_v1.0]" moduleId="org.eclipse.cdt.core.settings" name="Phone Release (GCCE) [S60_5th_Edition_SDK_v1.0]">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakeDefErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.SBSv2ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.CarbideMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RCOMPErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.Elf2E32ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.GCCECompilerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.GCCEAssemblerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.GCCELinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="CarbideConfigurationDataProvider">
+<ENV_VAR_DATA_ID/>
+<ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
+<ROM_BUILDER_DATA_ID ROMBUILDWORKINGDIRECTORYSTORAGE="C:\"/>
+</storageModule>
+<storageModule filesCache="C:\Symbian\Carbide\workspace\s60voip\group\bld.inf;C:\Symbian\Carbide\workspace\s60voip\group\VoIP.mmp;" includesCache="C:/Symbian/Carbide/workspace/s60voip/inc[LOCAL];C:/Symbian/Carbide/workspace/s60voip/data[LOCAL];C:/S60/devices/S60_5th_Edition_SDK_v1.0/epoc32/include;C:/S60/devices/S60_5th_Edition_SDK_v1.0/epoc32/include/variant;C:/S60/devices/S60_5th_Edition_SDK_v1.0/epoc32/include/ecom;C:/S60/devices/S60_5th_Edition_SDK_v1.0/epoc32/include/libc;C:/Source/pjproject-1.5.5/pjlib/include;C:/Source/pjproject-1.5.5/pjlib-util/include;C:/Source/pjproject-1.5.5/pjnath/include;C:/Source/pjproject-1.5.5/pjmedia/include;C:/Source/pjproject-1.5.5/pjsip/include;" macrosCache="_UNICODE;__SUPPORT_CPP_EXCEPTIONS__;PJ_M_I386=1;PJ_SYMBIAN=1;__MARM_ARMV5__;NDEBUG;__SYMBIAN32__;__GCCE__;__MARM__;__EXE__;__SERIES60_3X__;__S60_3X__;__S60_5X__;PJ_CONFIG_NOKIA_VAS_DIRECT=1;__EPOC32__;__GENERIC_MARM__;__EABI__;__S60_50__;" moduleId="configDataCache" sourcesCache="/pjproject-1.5.5/pjlib-util/include;/pjproject-1.5.5/pjlib/include;/pjproject-1.5.5/pjmedia/include;/pjproject-1.5.5/pjnath/include;/pjproject-1.5.5/pjsip/include;/s60voip/data;/s60voip/inc;/s60voip/src;" timestampCache="1269952481693" useMmpMacrosCache="true"/>
+<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+</cconfiguration>
+</storageModule>
+</cproject>
