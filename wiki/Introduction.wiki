@@ -1,7 +1,7 @@
-#summary Introduction page
+#summary README page
 #labels Featured
 
-= Introduction =
+= README =
 
 This project attempts to provide a S60 GUI for the PJSIP project.
 
