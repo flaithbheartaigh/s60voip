@@ -261,7 +261,7 @@ static void on_call_replaced(pjsua_call_id old_call_id,
 
 int symbian_ua_init()
 {
-    struct pjsua_data pjsua_var;
+    //struct pjsua_data pjsua_var;
 
     TInt err;
     pj_symbianos_params sym_params;
@@ -380,17 +380,17 @@ int symbian_ua_init()
     {
         pj_str_t codec_id = pj_str("speex/8000");
         pjmedia_codec_mgr_set_codec_priority( 
-        	pjmedia_endpt_get_codec_mgr(pjsua_var.med_endpt),
+        	pjmedia_endpt_get_codec_mgr(pjsua_get_var()->med_endpt),
         	&codec_id, PJMEDIA_CODEC_PRIO_NORMAL+1);
 
         codec_id = pj_str("speex/16000");
         pjmedia_codec_mgr_set_codec_priority( 
-        	pjmedia_endpt_get_codec_mgr(pjsua_var.med_endpt),
+        	pjmedia_endpt_get_codec_mgr(pjsua_get_var()->med_endpt),
         	&codec_id, PJMEDIA_CODEC_PRIO_DISABLED);
 
         codec_id = pj_str("speex/32000");
         pjmedia_codec_mgr_set_codec_priority( 
-        	pjmedia_endpt_get_codec_mgr(pjsua_var.med_endpt),
+        	pjmedia_endpt_get_codec_mgr(pjsua_get_var()->med_endpt),
         	&codec_id, PJMEDIA_CODEC_PRIO_DISABLED);
     }
 
