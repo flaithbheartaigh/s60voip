@@ -1,4 +1,4 @@
-#summary README page
+#summary Basic instructions on how to use this project.
 #labels Featured
 
 = README =
