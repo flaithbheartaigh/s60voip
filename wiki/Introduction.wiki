@@ -1,14 +1,12 @@
 #summary Introduction page
+#labels Featured
 
-= README =
-
-_An initial commit of the code has been made (not yet ready) (30/03/2010)._
+= Introduction =
 
 This project attempts to provide a S60 GUI for the PJSIP project.
 
 (Note: this project is basically a wrapper on the PJSIP S60 port, please 
-familiarise yourself with the PJSIP project [http://www.pjsip.org/]
- before continuing). 
+familiarise yourself with the PJSIP project [http://www.pjsip.org/] before continuing). 
 
 This project has been created using:
 
@@ -28,17 +26,13 @@ pjsip_simple.lib
 pjsip_ua.lib 
 pjsua_lib.lib
 
-These dll's were compiled from version 1.5.5 of the PJSIP project 
-[http://www.pjsip.org/]
+These dll's were compiled from version 1.5.5 of the PJSIP project [http://www.pjsip.org/]
 
 ==Nokia Dependencies==
 
-This project relies on the VoIP Audio Service (VAS) SDK API Plug-in 
-[http://wiki.forum.nokia.com/index.php/SDK_API_Plug-in]
+This project relies on the VoIP Audio Service (VAS) SDK API Plug-in [http://wiki.forum.nokia.com/index.php/SDK_API_Plug-in]
 
-The API Plug-in for the S60 5th Edition SDK needs to be installed 
-(i.e. added to the base S60 5th Edition SDK installed on your development 
-machine) and the following SIS file needs to be installed on your target device:
+The API Plug-in for the S60 5th Edition SDK needs to be installed (i.e. added to the base S60 5th Edition SDK installed on your development machine) and the following SIS file needs to be installed on your target device:
 
 For S60 3rd edition feature pack 1 and 2 phones you can install:
 
@@ -48,11 +42,9 @@ VoIPAudioSrvc_3132_0x10207b9e.SISX
 - VAS Plugin v2.0 for 3rd Edition (recommended):
 VoIPAudioSrvc_v20_SA_BK_3rd.SISX
 
-For S60 5th edition phones you do not need to install anything, since they
-ship with the VAS Plugin v2.0 installed.
+For S60 5th edition phones you do not need to install anything, since they ship with the VAS Plugin v2.0 installed.
 
-NOTE: we will be using the VAS Plugin v2.0 in this project since it provides
-more functionality than v1.0
+NOTE: we will be using the VAS Plugin v2.0 in this project since it provides more functionality than v1.0
 
 ==Tested Devices==
 
