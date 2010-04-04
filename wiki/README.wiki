@@ -15,18 +15,33 @@ This project has been created using:
 
 ==PJSIP Dependencies==
 
-The project requires the following DLL's:
+The project requires the following static library files are required:
 
-pjlib.lib 
-pjlib_util.lib 
-pjnath.lib
-pjsdp.lib 
-pjmedia.lib
-pjsip_simple.lib 
-pjsip_ua.lib 
 pjsua_lib.lib
+pjsip_ua.lib 
+pjsip_simple.lib 
+pjsip.lib
+libgsmcodec.lib 
+libspeexcodec.lib 
+libg7221codec.lib 
+libpassthroughcodec.lib
+pjmedia.lib
+pjmedia_audiodev.lib
+pjsdp.lib
+pjnath.lib
+pjlib_util.lib 
+pjlib.lib
+libsrtp.lib
+libresample.lib
 
-These dll's were compiled from version 1.5.5 of the PJSIP project [http://www.pjsip.org/]
+These libraries were compiled from version 1.5.5 of the PJSIP project 
+[http://www.pjsip.org/]
+
+Note: the following method was added to the pjsip v1.5.5:
+
+pjsua_core.c line: 2519
+
+    PJ_DECL(pj_status_t) pjsua_is_connected();
 
 ==Nokia Dependencies==
 
