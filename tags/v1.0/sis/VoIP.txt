@@ -1,0 +1,16 @@
+S60 VoIP
+ 
+(C) Copyright
+Robert Bridle 2010
+ 
+administrator@fandango60.com
+ 
+This application is freeware and may not be sold. If you believe you have paid for this application, please e-mail administrator@fandango60.com with the details of where you obtained the product.
+ 
+This software is provided "as is" without any warranty of any kind. No responsibility for any loss or damage to your phone, SIM, or any data therein whilst using this software is taken. By selecting "continue" you agress to these terms and conditions.
+
+This software is licensed under the GNU GENERAL PUBLIC LICENSE Version 2, June 1991.
+
+Privacy Statement
+The following security access profiles are used and granted by installing this application:
+LocalServices,NetworkServices,ProtServ,ReadDeviceData,ReadUserData,SwEvent,WriteDeviceData,WriteUserData,UserEnvironment,MultimediaDD
