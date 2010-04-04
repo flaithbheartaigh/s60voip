@@ -4529,7 +4529,8 @@ pjsua_media_transports_attach( pjsua_media_transport tp[],
 /**
  * @}
  */
-
+PJ_DECL(pj_status_t) 
+pjsua_is_connected();
 
 
 /**

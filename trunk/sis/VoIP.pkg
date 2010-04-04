@@ -31,31 +31,31 @@
 
 ; If PJSIP is linked via DLL, then uncomment the following:
 ;IF NOT (PACKAGE(0x2002F305))
-"$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\pjsua_lib.dll"-"!:\sys\bin\pjsua_lib.dll"
+;"$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\pjsua_lib.dll"-"!:\sys\bin\pjsua_lib.dll"
 ;ENDIF
 ;IF NOT (PACKAGE(0x2002F304))
-"$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\pjsip_ua.dll"-"!:\sys\bin\pjsip_ua.dll"
+;"$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\pjsip_ua.dll"-"!:\sys\bin\pjsip_ua.dll"
 ;ENDIF
 ;IF NOT (PACKAGE(0x2002F303))
-"$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\pjsip_simple.dll"-"!:\sys\bin\pjsip_simple.dll"
+;"$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\pjsip_simple.dll"-"!:\sys\bin\pjsip_simple.dll"
 ;ENDIF
 ;IF NOT (PACKAGE(0x2002F302))
-"$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\pjsip.dll"-"!:\sys\bin\pjsip.dll"
+;"$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\pjsip.dll"-"!:\sys\bin\pjsip.dll"
 ;ENDIF
 ;IF NOT (PACKAGE(0x2002F301))
-"$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\pjmedia.dll"-"!:\sys\bin\pjmedia.dll"
+;"$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\pjmedia.dll"-"!:\sys\bin\pjmedia.dll"
 ;ENDIF
 ;IF NOT (PACKAGE(0x2002F300))
-"$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\pjsdp.dll"-"!:\sys\bin\pjsdp.dll"
+;"$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\pjsdp.dll"-"!:\sys\bin\pjsdp.dll"
 ;ENDIF
 ;IF NOT (PACKAGE(0x2002F2FF))
-"$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\pjnath.dll"-"!:\sys\bin\pjnath.dll"
+;"$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\pjnath.dll"-"!:\sys\bin\pjnath.dll"
 ;ENDIF
 ;IF NOT (PACKAGE(0x2002F2FE))
-"$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\pjlib_util.dll"-"!:\sys\bin\pjlib_util.dll"
+;"$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\pjlib_util.dll"-"!:\sys\bin\pjlib_util.dll"
 ;ENDIF
 ;IF NOT (PACKAGE(0x2002F2FD))
-"$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\pjlib.dll"-"!:\sys\bin\pjlib.dll"
+;"$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\pjlib.dll"-"!:\sys\bin\pjlib.dll"
 ;ENDIF
 
 "$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\VoIP.exe"		-"!:\sys\bin\VoIP.exe"
