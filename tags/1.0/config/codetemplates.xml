@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><templates><template autoinsert="true" context="org.eclipse.cdt.ui.text.codetemplates.filecomment_context" deleted="false" description="Comment for created C/C++ files" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.filecomment" name="filecomment">/*
-========================================================================
- $Id$
- $Author$
- $Date$
- $Revision$
- Copyright (c) ${year} Fandango60.  
-========================================================================
-*/</template></templates>

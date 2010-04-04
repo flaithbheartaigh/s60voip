@@ -1,3 +1,0 @@
-The Nokia (Copyright) VoIP Audio Service API plugin v2.0 is a dependency of this application and needs to be installed: VoIPAudioSrv.sis
-
-For more information see: http://wiki.forum.nokia.com/index.php/SDK_API_Plug-in
