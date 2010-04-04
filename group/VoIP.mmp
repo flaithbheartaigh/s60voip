@@ -21,11 +21,11 @@ SYSTEMINCLUDE	\epoc32\include\libc
 USERINCLUDE		..\inc ..\data
 
 // PJSIP 1.5.5 includes
-SYSTEMINCLUDE	\Source\pjproject-1.5.5\pjlib\include
-SYSTEMINCLUDE	\Source\pjproject-1.5.5\pjlib-util\include
-SYSTEMINCLUDE	\Source\pjproject-1.5.5\pjnath\include
-SYSTEMINCLUDE	\Source\pjproject-1.5.5\pjmedia\include
-SYSTEMINCLUDE	\Source\pjproject-1.5.5\pjsip\include
+SYSTEMINCLUDE	\Symbian\Carbide\workspace\pjproject-1.5.5-orig\pjlib\include
+SYSTEMINCLUDE	\Symbian\Carbide\workspace\pjproject-1.5.5-orig\pjlib-util\include
+SYSTEMINCLUDE	\Symbian\Carbide\workspace\pjproject-1.5.5-orig\pjnath\include
+SYSTEMINCLUDE	\Symbian\Carbide\workspace\pjproject-1.5.5-orig\pjmedia\include
+SYSTEMINCLUDE	\Symbian\Carbide\workspace\pjproject-1.5.5-orig\pjsip\include
 
 SOURCEPATH		..\data
 
@@ -50,9 +50,9 @@ LIBRARY			pbkview.lib sendui.lib etel3rdparty.lib logcli.lib logwrap.lib
 LIBRARY			aknskins.lib aknskinsrv.lib aknswallpaperutils.lib
 
 // PJSIP 1.5.5 Libraries 
-LIBRARY         pjlib.lib pjlib_util.lib pjnath.lib
-LIBRARY         pjsdp.lib pjmedia.lib
-LIBRARY         pjsip_simple.lib pjsip_ua.lib pjsua_lib.lib       
+//LIBRARY         pjlib.lib pjlib_util.lib pjnath.lib
+//LIBRARY         pjsdp.lib pjmedia.lib
+//LIBRARY         pjsip_simple.lib pjsip_ua.lib pjsua_lib.lib       
 
 // VOIP Audio Service Plugin Library
 LIBRARY     VoIPAudioIntfc.lib   
@@ -60,17 +60,22 @@ LIBRARY     VoIPAudioIntfc.lib
 // PJSIP 1.5 Libraries 
 // Ordering static libs based on dependencies, most to least dependent,
 // this could be necessary for some SDKs, e.g: S60 3rd MR
-//STATICLIBRARY		pjsua_lib.lib
-//STATICLIBRARY		pjsip_ua.lib pjsip_simple.lib pjsip.lib
-//STATICLIBRARY		libgsmcodec.lib libspeexcodec.lib 
-//STATICLIBRARY		libg7221codec.lib libpassthroughcodec.lib
-//STATICLIBRARY		pjmedia.lib
-//STATICLIBRARY		pjmedia_audiodev.lib
-//STATICLIBRARY		pjsdp.lib
-//STATICLIBRARY		pjnath.lib
-//STATICLIBRARY		pjlib_util.lib pjlib.lib
-//STATICLIBRARY		libsrtp.lib
-//STATICLIBRARY		libresample.lib
+STATICLIBRARY		pjsua_lib.lib
+STATICLIBRARY		pjsip_ua.lib 
+STATICLIBRARY       pjsip_simple.lib 
+STATICLIBRARY       pjsip.lib
+STATICLIBRARY		libgsmcodec.lib 
+STATICLIBRARY       libspeexcodec.lib 
+STATICLIBRARY		libg7221codec.lib 
+STATICLIBRARY       libpassthroughcodec.lib
+STATICLIBRARY		pjmedia.lib
+STATICLIBRARY		pjmedia_audiodev.lib
+STATICLIBRARY		pjsdp.lib
+STATICLIBRARY		pjnath.lib
+STATICLIBRARY		pjlib_util.lib 
+STATICLIBRARY       pjlib.lib
+STATICLIBRARY		libsrtp.lib
+STATICLIBRARY		libresample.lib
 
 LANG 			01
 

@@ -520,7 +520,7 @@ int symbian_ua_answercall()
 int symbian_is_connected()
 {
 	return pjsua_is_connected();
-    return 0;
+    //return 0;
 }
 
 int symbian_im_send(const char *uri, char *content)
