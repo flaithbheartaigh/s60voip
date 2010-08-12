@@ -7,7 +7,7 @@ TARGETTYPE		EXE
 // whistles turned on
 EPOCSTACKSIZE	0x8000
 
-// PJSIP 1.5 Macros
+// PJSIP 1.5.5 Macros
 MACRO			PJ_M_I386=1
 MACRO			PJ_SYMBIAN=1
 MACRO			PJ_CONFIG_NOKIA_VAS_DIRECT=1
@@ -21,11 +21,11 @@ SYSTEMINCLUDE	\epoc32\include\libc
 USERINCLUDE		..\inc ..\data
 
 // PJSIP 1.5.5 includes
-SYSTEMINCLUDE	\Symbian\Carbide\workspace\pjproject-1.5.5-orig\pjlib\include
-SYSTEMINCLUDE	\Symbian\Carbide\workspace\pjproject-1.5.5-orig\pjlib-util\include
-SYSTEMINCLUDE	\Symbian\Carbide\workspace\pjproject-1.5.5-orig\pjnath\include
-SYSTEMINCLUDE	\Symbian\Carbide\workspace\pjproject-1.5.5-orig\pjmedia\include
-SYSTEMINCLUDE	\Symbian\Carbide\workspace\pjproject-1.5.5-orig\pjsip\include
+SYSTEMINCLUDE	\Symbian\Carbide\workspace\s60voip\pjproject-1.5.5\pjlib\include
+SYSTEMINCLUDE	\Symbian\Carbide\workspace\s60voip\pjproject-1.5.5\pjlib-util\include
+SYSTEMINCLUDE	\Symbian\Carbide\workspace\s60voip\pjproject-1.5.5\pjnath\include
+SYSTEMINCLUDE	\Symbian\Carbide\workspace\s60voip\pjproject-1.5.5\pjmedia\include
+SYSTEMINCLUDE	\Symbian\Carbide\workspace\s60voip\pjproject-1.5.5\pjsip\include
 
 SOURCEPATH		..\data
 
@@ -57,7 +57,7 @@ LIBRARY			aknskins.lib aknskinsrv.lib aknswallpaperutils.lib
 // VOIP Audio Service Plugin Library
 LIBRARY     VoIPAudioIntfc.lib   
  
-// PJSIP 1.5 Libraries 
+// PJSIP 1.5.5 Libraries 
 // Ordering static libs based on dependencies, most to least dependent,
 // this could be necessary for some SDKs, e.g: S60 3rd MR
 STATICLIBRARY		pjsua_lib.lib
