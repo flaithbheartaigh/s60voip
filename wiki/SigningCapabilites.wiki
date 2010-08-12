@@ -1,4 +1,4 @@
-#Signing Capbilities.
+#summary Basic instructions on how to sign the application.
 
 = Symbian Signing Requirements =
 
